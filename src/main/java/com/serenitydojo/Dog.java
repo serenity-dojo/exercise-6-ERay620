@@ -26,6 +26,11 @@ public class Dog extends Pet {
     // Exercise 4
     public String makeNoise() {return DOG_NOISE;}
 
+    @Override
+    public String goForWalks() {
+        return null;
+    }
+
     public void feed() {
         this.isFed = true;
     }
